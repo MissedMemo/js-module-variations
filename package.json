@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "node1": "node 1-legacy-IIFE/client",
+    "browser1": "open 1-legacy-IIFE/client.html",
+    "node2": "node 2-script-src/client",
+    "browser2": "open 2-script-src/client.html",
+    "node3": "node 3-ESM-lib/client",
+    "browser3": "open 3-ESM-lib/client.html",
+    "node4": "node 4-bundle.js/client",
+    "browser4": "open 4-bundle.js/client.html",
+    "node5": "node 5-file.mjs/client",
+    "browser5": "open 5-file.mjs/client.html"
+  }
+}
