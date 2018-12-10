@@ -6,10 +6,10 @@
     "browser2": "open 2-script-src/client.html",
     "node3": "node -r esm 3-esm-lib/server",
     "browser3": "open http://localhost:3000",
-    "node4": "",
-    "browser4": "",
-    "node5": "",
-    "browser5": ""
+    "node4": "echo \"Todo: implement bundle demo\" && exit 1",
+    "browser4": "echo \"Todo: implement bundle demo\" && exit 1",
+    "node5": "echo \"Todo: implement .mjs demo\" && exit 1",
+    "browser5": "echo \"Todo: implement .mjs demo\" && exit 1"
   },
   "dependencies": {
     "esm": "^3.0.84",
